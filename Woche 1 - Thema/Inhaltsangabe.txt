@@ -1,0 +1,16 @@
+Zusammenfassung 
+A Markov chain for numerical chromosomal instability in clonally expanding populations:
+
+Das Paper stellt 2 Modelle auf. Das Basis Modell erstellt eine Markovkette, die nur die missegregation-rate p betrachtet und am Ende die Lebenden Zellen auswertet, wobei eine lebende Zelle jedes Chromosom mindestens 1-mal oder bis zu N-mal besitzt. Die Markovkette beschreibt dabei nur ein Chromosom gleichzeitig.
+Das andere Modell betrachtet zusätzlich Onkogene und Tumor-Supressoren. Jedem Chromosom wird ein Score zugewiesen abhängig von der Zahl an Onkogenen(positiv) und Tumor-Supressoren(negativ). Die Zelle kann sich also entweder teilen und im Basismodell berechnet werden oder sie stirbt vorher und geht in einen absorbierenden Zustand.
+In dieses Modell wird jetzt noch eingeführt, dass sich das Genom verdoppelt, aber sich die Zelle nicht teilt.
+Weiterhin wird der negative Effekt von leichter Abweichung vom diploiden Karyotyp auf Tumorwachstum betrachtet.
+Die Ergebnisse des Basismodells sind jedoch etwas unrealistisch und können nicht durch Daten unterstützt werden.
+Aus der mathematischen Betrachtung des verbesserten Modells geht hervor, dass die durschnittliche Anzahl an Chromosomenkopien 3 ist, wie beim Basismodell, aber die Ergebnisse können durch Experimentdaten unterstützt werden.
+
+
+Zusammenfassung
+Accurate chromosome segregation by probabilistic self-organization:
+
+kMT = KinetochorMikrotubuli
+DIe Bindung zwischen Mikrotubuli und Kinetochor wird duchr eine Markovkette modelliert, da das search and capture Modell der Mikrotubuli lediglich die Suche der Kinetochore erklärt und nicht die kMT-Fehler betrachtet. Die Markovkette beschreibt die verschiedenen Möglichkeiten der (Mis)-Segregation als Zustände. Die Markovkette erklärt die Theorie hinter der Chromosomen Bi-Orientation der Meiose UND Mitose. Eine Balance zwischen kMT Anschlusswahrscheinlichkeit und Abtrennwahrscheinlichkeit ist essentiell für eine korrekte Segregation. Durch Veränderung von Variablen in dem Modell, Assoziations und Dissoziations-Wahrscheinlichkeit, lassen sich auch Auffälligleiten erklären.
