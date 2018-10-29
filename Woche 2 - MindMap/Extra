@@ -1,0 +1,56 @@
+Quellen: PubMed, Web-of-Science, Primo, Google Scholar
+Suche mit Kombination der Keywords: stochastic, modelling, chromosome, 
+proliferation, markov chain
+
+Lessons and perspectives for applications of stochastic
+models in biological and cancer research(Review Article):
+
+Stochastische Modellierung ist eine gute Methode, aufgrund der 
+intrinsischen Zufälligkeit in biologischen Prozessen z.B. 
+ungleichmäßige Verteilung von Molekülen, zufällige Fluktuation in 
+Genexpression etc. Näher betrachtet werden stochstische Modelle für 
+Genexpression und Zellkontakthemmung bei Krebszellen. Am Ende werden 
+aus den Beobachtungen Perspektiven dargestellt, die in Zukunft von Interesse sein könnten.
+
+
+Modelling T cell proliferation: Dynamics heterogeneity depending on
+cell differentiation, age, and genetic background:
+
+Effekte von Genetik und Alterungsprozesse auf die T-Zell-Proliferation
+im Thymus und der Milz werden betrachten mit Hilfe von ODEs zur
+Modellierung vom Verhalten einer einzelnen Zellevolution. Das Modell
+simpel genug, sodass es auch zu Auswertung von anderen Pulse/Chase
+Experimenten benutzt werden kann. Aus den Experimenten wurde erkenntlich, dass die Proliferation heterogen ist aber Signatures aufweißt die spezifisch sind.
+
+
+Model-Based Evaluation of Spontaneous Tumor Regression in Pilocytic
+Astrocytoma:
+
+Die Authoren Modellieren das Wachstum und das Entwicklungs-Verhalten 
+eines Teils resektierten pilocytic astrocytoma Tumor über eine Markovkette. 
+Aus dem Modell ging hervor, dass eine Rückbildung (linear)abhängig 
+von der Größe des noch vorhandenen Tumors ist. Weiterhin lässt sich
+ein Risikokoeffizient aus epidemiologischen Daten berechnen, der das
+Verhalten des Tumors bestimmt.
+
+Stochastic control of proliferation and differentiation
+in stem cell dynamics:
+
+Es wurde ein Model entwickelt, das Stammzell Proliferation und  
+Differenzierung beschreibt mit Einflüssen von der Größe der Population 
+und eingebauten negativen Feedbackloops. Der 2-dimensionale 
+Markovprozess wurde gelöst und es konnten die Mittelwerte und Varianzen 
+der verschiedenen Populationen ermittelt werden.
+
+
+A Multi-stage Representation of Cell Proliferation as a
+Markov Process:
+
+Der Gillespie-Algorithmus wird häufig für biologische Prozesse benutzt, 
+für den er nicht vorgesehen war, insbesondere der Zellzyklus. Das Paper 
+schlägt eine Aufteilung des Zellzykluses in verschiedene Stufen vor, 
+wodurch jede einzelne Stufe Exponentialverteilt ist. Es wurde anhand von 2 biologischen Modellen gezeigt, dass die Ergebnisse qualitative und quantitave Einflüsse auf die Berechnungen haben.
+
+
+
+Thema: mathematische Modellierung von Prozessen des Zellzykluses
